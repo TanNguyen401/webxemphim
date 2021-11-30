@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    font-family: 'Times New Roman', Times, sans-serif;
+    color:aliceblue ;
+    width: 100%;
+}
+.bg{background:url(https://1.bp.blogspot.com/-DC008lu58Nc/W1LMf54UKXI/AAAAAAAAACQ/REydlqiHDecasKOrG7qdP1Z5GQdlRDdxgCLcBGAs/s1600/galaxy-blue.jpg) no-repeat;background-size:cover;height:100%;width:100%;position:fixed;top:0;left:0;z-index:-3}.bg:before{content:'';width:100%;height:100%;background:#000;position:fixed;z-index:-1;top:0;left:0;opacity:.3}@keyframes sf-fly-by-1{from{transform:translateZ(-600px);opacity:.5}to{transform:translateZ(0);opacity:.5}}@keyframes sf-fly-by-2{from{transform:translateZ(-1200px);opacity:.5}to{transform:translateZ(-600px);opacity:.5}}@keyframes sf-fly-by-3{from{transform:translateZ(-1800px);opacity:.5}to{transform:translateZ(-1200px);opacity:.5}}.star-field{position:fixed;top:0;left:0;width:100%;height:100%;perspective:600px;-webkit-perspective:600px;z-index:-1}.star-field .layer{box-shadow:-411px -476px #cccccc,777px -407px #d4d4d4,-387px -477px #fcfcfc,-91px -235px #d4d4d4,491px -460px #f7f7f7,892px -128px #f7f7f7,758px -277px #ededed,596px 378px #cccccc,647px 423px whitesmoke,183px 389px #c7c7c7,524px -237px #f0f0f0,679px -535px #e3e3e3,158px 399px #ededed,157px 249px #ededed,81px -450px #ebebeb,719px -360px #c2c2c2,-499px 473px #e8e8e8,-158px -349px #d4d4d4,870px -134px #cfcfcf,446px 404px #c2c2c2,440px 490px #d4d4d4,414px 507px #e6e6e6,-12px 246px #fcfcfc,-384px 369px #e3e3e3,641px -413px #fcfcfc,822px 516px #dbdbdb,449px 132px #c2c2c2,727px 146px #f7f7f7,-315px -488px #e6e6e6,952px -70px #e3e3e3,-869px -29px #dbdbdb,502px 80px #dedede,764px 342px #e0e0e0,-150px -380px #dbdbdb,654px -426px #e3e3e3,-325px -263px #c2c2c2,755px -447px #c7c7c7,729px -177px #c2c2c2,-682px -391px #e6e6e6,554px -176px #ededed,-85px -428px #d9d9d9,714px 55px #e8e8e8,359px -285px #cfcfcf,-362px -508px #dedede,468px -265px #fcfcfc,74px -500px #c7c7c7,-514px 383px #dbdbdb,730px -92px #cfcfcf,-112px 287px #c9c9c9,-853px 79px #d6d6d6,828px 475px #d6d6d6,-681px 13px #fafafa,-176px 209px #f0f0f0,758px 457px #fafafa,-383px -454px #ededed,813px 179px #d1d1d1,608px 98px whitesmoke,-860px -65px #c4c4c4,-572px 272px #f7f7f7,459px 533px #fcfcfc,624px -481px #e6e6e6,790px 477px #dedede,731px -403px #ededed,70px -534px #cccccc,-23px 510px #cfcfcf,-652px -237px whitesmoke,-690px 367px #d1d1d1,810px 536px #d1d1d1,774px 293px #c9c9c9,-362px 97px #c2c2c2,563px 47px #dedede,313px 475px #e0e0e0,839px -491px #e3e3e3,-217px 377px #d4d4d4,-581px 239px #c2c2c2,-857px 72px #cccccc,-23px 340px #dedede,-837px 246px white,170px -502px #cfcfcf,822px -443px #e0e0e0,795px 497px #e0e0e0,-814px -337px #cfcfcf,206px -339px #f2f2f2,-779px 108px #e6e6e6,808px 2px #d4d4d4,665px 41px #d4d4d4,-564px 64px #cccccc,-380px 74px #cfcfcf,-369px -60px #f7f7f7,47px -495px #e3e3e3,-383px 368px #f7f7f7,419px 288px #d1d1d1,-598px -50px #c2c2c2,-833px 187px #c4c4c4,378px 325px whitesmoke,-703px 375px #d6d6d6,392px 520px #d9d9d9,-492px -60px #c4c4c4,759px 288px #ebebeb,98px -412px #c4c4c4,-911px -277px #c9c9c9;transform-style:preserve-3d;position:absolute;top:50%;left:50%;height:4px;width:4px;border-radius:2px}.star-field .layer:nth-child(1){animation:sf-fly-by-1 5s linear infinite}.star-field .layer:nth-child(2){animation:sf-fly-by-2 5s linear infinite}.star-field .layer:nth-child(3){animation:sf-fly-by-3 5s linear infinite}
+
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+a, h1, h2, p{
+    text-decoration: none;
+    color:aliceblue;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+}
+#header{
+    width: 100%;
+    color: orange;
+}
+#header .container {
+    display: flex;
+    padding: 0px auto;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#header .container{
+    padding-left: 20%;
+    padding-right: 15%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(230, 147, 23, 0.322);
+}
+#header .container .logonn{
+    width: 250px;
+}
+#header .container .logonn img{
+    width: 100%;
+}
+#header .container .dangnhapnn{
+    width: 260px;
+    line-height: 122px;
+    font-size: 20px;
+}
+#header .container .contract-infor{
+    width: 60%;
+    display: flex;
+    line-height: 80px;
+    
+    
+}
+#header .container .contract-infor ul{
+    list-style-type: none;
+}
+.contract-infor ul.search input{
+    width: 70%;
+    height: 25px;
+    background-color: rgba(226, 153, 44, 0.349);
+    border-radius: 10px;
+    outline:none;
+    text-align: center;
+}
+ 
+.text{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+#menu{
+    width:100%;
+    background-color:rgb(230, 147, 23,0.514) ;
+    margin: 0px;
+}
+#menu .container{
+    width:650px;
+    height: 40px;
+    margin: 0px auto;
+
+}
+#menu .container .root{
+    display: flex;
+    justify-content: center;
+}
+#menu .container .root > li{
+    z-index: 1;
+    position: relative;
+}
+#menu .container .root > li > a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0px 25px 0px 25px;
+    line-height: 40px;
+}
+ul.menucon{
+    width: 200px;
+    padding-left: 0px;
+    position: absolute;
+}
+ul.menucon li a{
+    color: aliceblue;
+    display: none;
+    border-top:1px solid aliceblue ;
+    text-decoration: none;
+    line-height: 40px;
+    background-color:rgba(230, 147, 23, 0.322) ;
+}
+
+/* -------------------------- */
+.dieukhoan{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+.accordion {
+    cursor: pointer;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+    background: linear-gradient(to right, #fc466b, #3f5efb); 
+}
+.panel {
+    padding: 2%;
+    text-align: left;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background: linear-gradient(to right, #3f5efb81, #fc466b81); 
+}
+.nho{
+    display: flex;
+    justify-content: space-around;
+}
+.nho >h1{
+    margin: auto;
+}
+.nguyennn{
+    display: flex;
+    justify-content: space-around;
+}
+.edk{
+    width: 23%;
+}
+.edk >ul >li{
+ text-align: left;
+} 
+.xemthem{
+    margin: auto;
+    width: 70%;
+    display: block;
+    background: linear-gradient(to right, #3f5efb81, #fc466b81); 
+}
+/* -----------end----------- */
+  
+.container-end{
+    background-color: rgba(230, 147, 23, 0.144);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#end .rong{
+    height: 30px;
+    background-color: rgb(230, 147, 23,0.514);
+}
+.container-end .logo >img{
+    height: 100%;
+}
+.endweb{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.endweb >ul{
+    padding-top: 2%;
+}
+.endweb >ul >li{
+    list-style-type: none;
+    line-height: 25px;
+}
+#end p{
+    color: rgb(230, 147, 23);
+}
+/* -----icon----- */
+ 
+#icon .masager{
+    display: flex;
+    position: fixed;
+    width: 50px;
+    top: 85%;
+    right: 3px;
+    padding: 10px;
+    border-radius: 30px;
+    background: rgba(0, 0, 255, 0.171);
+}
+#icon .masager img{
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    justify-content: end;
+}
+#icon .masager i{
+    line-height: 55px;
+    float: left;
+    background-color: rgba(15, 102, 179, 0.144) ;
+    width: 10%;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+#icon .masager input{
+    line-height: 55px;
+    display: none;
+    width: 70%;
+    background: rgba(15, 102, 179, 0.144);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: none;
+    border: none;
+    outline:none;
+}
+/* -----hover */
+#menu .container .root > li>a:hover{
+    color: rgb(230, 147, 23);
+    transition: ease-in 0.3s;
+    -moz-transition: ease-in 0.3s;
+    -webkit-transition: ease-in 0.3s;
+}
+#menu .container .root > li:hover ul.menucon a:hover{
+    background-color:rgb(230, 147, 23,0.219) ;
+    color: rgb(230, 147, 23);
+    transition: ease-in 0.3s;
+    -moz-transition: ease-in 0.3s;
+    -webkit-transition: ease-in 0.3s;
+}
+#menu .container .root > li:hover ul.menucon a{
+    display: block;
+    transition: ease-in 0.3s;
+    -moz-transition: ease-in 0.3s;
+    -webkit-transition: ease-in 0.3s;
+}a, h1, h2, p:hover{
+    text-decoration: none;
+    color:rgb(230, 147, 23) ;
+}
+
+#icon .masager:hover{
+    width: auto;
+}
+#icon .masager:hover.masager img{
+ width: 20%;
+}
+#icon .masager:hover.masager input{
+    display: block;
+}
+#icon .masager:hover.masager i{
+    display: block;
+   
+}

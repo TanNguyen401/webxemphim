@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dk.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Dặt Vé Nhanh</title>
+</head>
+<body>
+  
+    <div id="header">
+        <div class="container">
+              <a class="logonn" href="../trangchu/trangchu.html"><img src="../logo/icon&logo/logoheder.png" alt=""></a>
+              <a class="dangnhapnn" href="../dangnhap/dangnhap.html"><i class="far fa-address-card"></i>Đăng nhập/Đăng ký</a>
+        </div>
+    </div>
+    <div id="menu">
+        <div class=container>
+            <ul class="root">
+                <li><a href="../trangchu/trangchu.html">Home</a></li>
+                <li><a href="../phim/phimchu.html">Phim</a>
+                    <ul class="menucon">
+                        <li><a href="../phim/phimdangchieu/phimchudangchieu.html">Phim đang chiếu</a></li>
+                        <li><a href="../phim/phimdukien/phimchudukien.html">Phim dự kiến</a></li>
+                    </ul>
+                </li>
+                <li> <a href="../hethong/hethong.html"> hệ thống</a>
+                    <ul class="menucon">
+                        <li><a href="../hethong/mienbac/hethongmienbac.html">Hệ thống rạp miền bắc</a></li>
+                        <li><a href="../hethong/mientrung/hethongmientrung.html">Hệ thống rạp miền trung</a></li>
+                        <li><a href="../hethong/miennam/hethongmienbac.html">Hê thống rạp miền nam</a></li>
+                    </ul>
+                </li>
+                <li> <a href="../ud&dk/uudai.html"> Ưu Đãi</a>
+                    <ul class="menucon">
+                        <li><a href="../ud&dk/datve.html">Đặt Vé Ngay!</a></li>
+                        <li><a href="../ud&dk/uudai.html">Ưu Đãi và Sự Kiện</a></li>
+                    </ul>
+                </li>
+                <li><a href="../thanhvien/thanhvien.html">Thành viên</a>
+                    <ul class="menucon"></ul>
+                </li>
+                <li><a href="../Hotro/hotro.html">Hổ Trợ</a>
+                    <ul class="menucon"></ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+<br>
+    <div class="to">
+        <div class="form">
+            <h2 id="dv">Đặt Vé Ngay</h2>
+            <label style="margin-left: -150px;">Họ và tên</label>
+            <input type="text" name="hoten" placeholder="Ngô Tấn Nguyên">
+            <label>Số điện thoại</label>
+            <input id="phone"  type="text" name="sdt" placeholder="0828932779" >    
+            <label style="margin-left: -180px;">Email</label>
+            <input id="signup-email" type="text" name="email" placeholder="0306201053@caothnag.edu.vn" > 
+            <label>Bên Phải là tất cả phim có thế đặt</label>
+            <input type="text" name="sdt" placeholder="bạn muốn phim số máy"> 
+            <input id="submit" type="submit" name="submit" onclick="CreateAccount()" value="Xác Nhận">
+        </div>   
+        <div id="slideshor">
+            <div class="cac-slide">
+                <div><img src="../logo/dk/dangchieu1.jpg" width="400px" class="imgSlider fade"></div>
+                <div><img src="../logo/dk/dangchieu2.jpg" width="400px"style="display: none;" width="100%" class="imgSlider fade"></div>
+                <div><img src="../logo/dk/dangchieu3.jpg" width="400px"style="display: none;"width="100%" class="imgSlider fade"></div>
+                <div><img src="../logo/dk/dangchieu4.jpg" width="400px"style="display: none;" width="100%" class="imgSlider fade"></div>
+                <div><img src="../logo/dk/dangchieu5.jpg" width="400px"style="display: none;"width="100%" class="imgSlider fade"></div>
+                <div><img src="../logo/dk/dangchieu6.jpg" width="400px"style="display: none;"width="100%" class="imgSlider fade"></div>
+                   <a href="#"id="btn-prev" onclick="hienThiSlideTruocDo()"></a>
+                   <a href="#"id="btn-next" onclick="hienThiSlideKeTiep()"></a>
+           </div>
+       </div>             
+    </div>
+    <br>
+    <div id="end">
+        <p class="rong"></p>
+        <div class="container-end">
+            <div class="endweb">
+                <div class="logo">
+                    <img src="../logo/icon&logo/logoten.png" alt="">
+                </div>
+                <ul>
+                    <a href="../dieukhoan/trangchudieukhoan.html"><h2>Điều khoản sử dụng</h2></a>
+                    <br>
+                    <li> <a href="../dieukhoan/điều khoản/dieuchung.html">Điều khoản chung</a></li>
+                    <li> <a href="../dieukhoan/điều khoản/giaodich.html">Điều khoản giao dịch</a></li>
+                    <li><a href="../dieukhoan/điều khoản/thanhtoan.html"> Điều khoản thanh toán</a></li>
+                    <li> <a href="../dieukhoan/điều khoản/baomat.html"> Điều khoản bảo mật</a></li>
+                </ul>
+                <ul><a href="ketnoi"><h2>Kết nối với chúng tôi</h2></a>
+                    <br>
+                    <li><a href="https://www.facebook.com/nguyen040101">
+                        <i class="fab fa-facebook-square"></i>facebook.com/nguyen040101
+                       </a>
+                    </li>
+                    <li><a href=""><i class="fas fa-at"></i>0306201053@caothnag.edu.vn</a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i>instagram.com/tn0.41/</a></li>
+                    <li><a href=""><i class="fab fa-youtube"></i>youtube.com/channel</a></li>
+                    
+                </ul>
+                <ul> <h2>chăm sóc khách hàng</h2>
+                    <br>
+                    <p>
+                        Hotline:0820932779,.... <br>
+                        Giờ làm viêc: 8:00 - 22:00 <br>
+                        Email:0306201053@caothang.edu.vn
+                    </p>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div  id="icon">
+        <div>
+            <div class="masager">
+                <input id="gopy" type="text" placeholder="Bạn Cần Gì Ở Chúng Tôi">
+                <i onclick="share()"  class="fas fa-paper-plane"></i>
+               <img src="../logo/icon&logo/reasons-4.png">
+            </div>
+        </div>
+    </div>
+     
+    <!--  -->
+    
+    <div class="bg"></div>
+
+    <div class="star-field">
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <script src="../trangchu/trangchu.js"></script>
+</body>
+</html>
